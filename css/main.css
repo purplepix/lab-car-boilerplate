@@ -1,1 +1,19 @@
-/* Los estilos de tu proyecto */
+.main {
+  background-image: url("../assets/images/taxi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 95%;
+  height: 90vh;
+}
+
+.sign-in {
+  background-image: url("../assets/images/conduce.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+}
+
+.sign-in-box {
+  background-color: rgba(0, 0, 0, 0.5);
+}
