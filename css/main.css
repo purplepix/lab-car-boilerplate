@@ -10,6 +10,33 @@
   color: #f7b617;
 }
 
+.modal-content {
+  background-color: #00B29E;
+}
+
+.modal .form-control {
+  background-color: #fff;
+  border: 1px solid #cecece;
+  border-radius: 0.25rem;
+}
+
+.modal .form-control::placeholder {
+  color: #343a40;
+}
+
+.modal .fas {
+  font-size: 1rem;
+}
+
+.modal .fa-user {
+  padding: 0 0.5px;
+}
+
+.modal-body a, .modal-body a:hover, .modal-body:focus{
+  text-decoration: none;
+  color: #8a1818; 
+}
+
 .main {
   background-image: url("../assets/images/taxi.jpg");
   background-repeat: no-repeat;
@@ -67,7 +94,7 @@
   font-size: 1.5rem;
 }
 
-.form-control {
+.fees .form-control {
   background-color: #ffc107;
   border: 1px solid #fff;
   border-radius: 0.75rem;
@@ -114,6 +141,9 @@
 @media screen and (min-width: 576px) {
   .main {
     height: 100vh;
+  }
+  .img-profile {
+    width: 40%;
   }
   .app-section .border {
     border-left: none !important;
