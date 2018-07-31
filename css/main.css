@@ -142,6 +142,10 @@
   border: none;
 }
 
+.driver-subscription p {
+  font-size: 0.9rem;
+}
+
 @media screen and (min-width: 576px) {
   .main {
     height: 100vh;
