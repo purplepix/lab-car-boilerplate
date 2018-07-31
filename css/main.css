@@ -1,9 +1,49 @@
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #4d4d4d;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: #f7b617;
+}
+
 .main {
   background-image: url("../assets/images/taxi.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 95%;
-  height: 90vh;
+  background-position-y: 95%;
+  height: 85vh;
+  padding: 0;
+}
+
+.main .row {
+  margin: auto 0 auto auto;
+  padding: 0;
+  width: 100%;
+}
+
+.dropdown-divider {
+  border-top: 1px solid #fff;
+}
+
+.container-fluid .btn {
+  font-size: 1.2rem;
+  white-space:normal;
+}
+
+.container-fluid .btn:hover {
+  color: #f7b617;
+}
+
+.border {
+  border: 1px solid #fff !important;
+} 
+
+.app-section p, .sign-in-box p, .fees p {
+  font-size: 1.2rem;
 }
 
 .sign-in {
@@ -16,4 +56,78 @@
 
 .sign-in-box {
   background-color: rgba(0, 0, 0, 0.5);
+  height: 60vh;
+}
+
+.sign-in-box h2, .fees h2 {
+  font-size: 1.5rem;
+}
+
+.far, .fas {
+  font-size: 1.5rem;
+}
+
+.form-control {
+  background-color: #ffc107;
+  border: 1px solid #fff;
+  border-radius: 0.75rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+.fees .btn {
+  font-size: 1rem;
+}
+
+#map {
+  width: 100%;
+  height: 40vh;
+}
+
+.footer .border {
+  border-left: none !important;
+  border-right: none !important;
+}
+
+.footer .nav-link {
+  font-size: 1rem;
+}
+
+.footer .navbar-nav .nav-link, .social-media {
+  color: #fff;
+}
+
+.footer .navbar-nav .nav-link:hover, .footer .navbar-nav .nav-link:focus, 
+.social-media:hover, .social-media:focus {
+  color: #f7b617;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 576px) {
+  .main {
+    height: 100vh;
+  }
+  .app-section .border {
+    border-left: none !important;
+  }
+  .app-section p, .sign-in-box p, .fees p {
+    font-size: 1.5rem;
+  }
+  .sign-in-box h2, .fees h2 {
+    font-size: 2rem;
+  }
+  #map {
+    height: 60vh;
+  }
+  .img-fluid {
+    max-width: 60%;
+  }
 }
