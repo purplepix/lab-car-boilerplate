@@ -10,33 +10,6 @@
   color: #f7b617;
 }
 
-.modal-content {
-  background-color: #00B29E;
-}
-
-.modal .form-control {
-  background-color: #fff;
-  border: 1px solid #cecece;
-  border-radius: 0.25rem;
-}
-
-.modal .form-control::placeholder {
-  color: #343a40;
-}
-
-.modal .fas {
-  font-size: 1rem;
-}
-
-.modal .fa-user {
-  padding: 0 0.5px;
-}
-
-.modal-body a, .modal-body a:hover, .modal-body:focus{
-  text-decoration: none;
-  color: #8a1818; 
-}
-
 .main {
   background-image: url("../assets/images/taxi.jpg");
   background-repeat: no-repeat;
@@ -136,6 +109,37 @@
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+.modal-content {
+  background-color: #00B29E;
+}
+
+.modal .form-control {
+  background-color: #fff;
+  border: 1px solid #cecece;
+  border-radius: 0.25rem;
+}
+
+.modal .form-control::placeholder {
+  color: #343a40;
+}
+
+.modal .fas {
+  font-size: 1rem;
+}
+
+.modal .fa-user {
+  padding: 0 0.5px;
+}
+
+.modal-body a, .modal-body a:hover, .modal-body:focus{
+  text-decoration: none;
+  color: #8a1818; 
+}
+
+.modal-sign-in .modal-header {
+  border: none;
 }
 
 @media screen and (min-width: 576px) {
